@@ -112,9 +112,31 @@
 //     console.log(i);
 // }
 
-for(let i=1; i<=10; i++){
-    console.log("19*" + i + "=" + 19*i);
-}
+// for(let i=1; i<=10; i++){
+//     console.log("19*" + i + "=" + 19*i);
+// }
+ 
+const m = "10";
+ switch(m){
+    case "m<=10":
+      console.log("e");
+      break;
+    case "m>=11"&&"m<=20":
+      console.log("d");
+      break;
+    case "m>=21"&&"m<=30":
+      console.log("c");
+      break;
+    case "m>=31"&&"m<=40":
+      console.log("b");
+      break;
+    case "m>=41"&&"m<=50":
+      console.log("a");
+      break;
+    default:
+      console.log("invalid");
+  }
+
 
 
 
